@@ -9,7 +9,7 @@ export const Product = model('Product', new Schema({
         type: String,
         required: true,
     },
-    imagePath: {
+    image: {
         type: String,
         required: true,
     },
