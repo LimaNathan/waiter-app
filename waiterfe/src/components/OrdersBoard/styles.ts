@@ -1,12 +1,5 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    width: : 100%;
-    max-width: 1216px;
-    margin: 40px auto;
-    display: flex;
-    gap: 32px;
-`;
 
 export const Board = styled.div`
     display: flex;
@@ -18,7 +11,7 @@ export const Board = styled.div`
     border-radius: 16px;
     align-items: center;
 
-    .header{
+    header {
         padding: 8px;
         font-size: 14px;
         display: flex;
@@ -54,6 +47,4 @@ export const OrdersContainer = styled.div`
         & + button {
             margin-top: 24px;
         }
-
-
-}`;
+`;
