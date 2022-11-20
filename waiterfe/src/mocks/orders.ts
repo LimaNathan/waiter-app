@@ -1,27 +1,30 @@
+import { Order } from "../types/Order";
+
 const orders: Order[] = [
-    {
-        _id: '6372e48cbcd195b0d3d0f7f3',
-        table: '123',
-        status: 'WAITING',
-        products: [
-            {
-                product: {
-                    name: 'Pizza quatro queijos',
-                    imagePath: '1668472896991-quatro-queijos.png',
-                    price: 40,
-                },
-                quantity: 3,
-                _id: '6372e48cbcd195b0d3d0f7f4'
-            },
-            {
-                product: {
-                    name: 'Coca cola',
-                    imagePath: '1668473462705-coca-cola.png',
-                    price: 7,
-                },
-                quantity: 2,
-                _id: '6372e48cbcd195b0d3d0f7f5'
-            }
-        ],
-    }
+  {
+    _id: "637a261ea5e0791f2a4df2d4",
+    table: "2",
+    status: "WAITING",
+    products: [
+      {
+        product: {
+          name: "Suco de laranja",
+
+          imagePath: "1668876604429-suco-de-laranja.png",
+          price: 5,
+        },
+        quantity: 1,
+        _id: "637a261ea5e0791f2a4df2d5",
+      },
+      {
+        product: {
+          name: "Pizza Frango c/ Catupity",
+          imagePath: "1668876529030-frango-catupiry.png",
+          price: 40,
+        },
+        quantity: 1,
+        _id: "637a261ea5e0791f2a4df2d6",
+      },
+    ],
+  },
 ];
